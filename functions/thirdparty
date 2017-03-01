@@ -16,6 +16,7 @@ source $dir/functions/third-party/spotify
 source $dir/functions/third-party/steam
 source $dir/functions/third-party/sublime-text
 source $dir/functions/third-party/vlc
+source $dir/functions/third-party/smplayer
 
 # Install Third-Party Applications
 function thirdparty {
@@ -41,6 +42,7 @@ function thirdparty {
         'synergy'           'Synergy' \
         'sublime-text'      'Sublime Text 3' \
         'vlc'               'VLC Player' \
+        'smplayer'          'Smplayer' \
         3>&1 1>&2 2>&3)
      
     exitstatus=$?
