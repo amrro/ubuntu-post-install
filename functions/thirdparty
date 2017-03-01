@@ -17,6 +17,8 @@ source $dir/functions/third-party/steam
 source $dir/functions/third-party/sublime-text
 source $dir/functions/third-party/vlc
 source $dir/functions/third-party/smplayer
+source $dir/functions/third-party/gradle
+
 
 # Install Third-Party Applications
 function thirdparty {
@@ -43,6 +45,7 @@ function thirdparty {
         'sublime-text'      'Sublime Text 3' \
         'vlc'               'VLC Player' \
         'smplayer'          'Smplayer' \
+        'gradle'          'Gradle' \
         3>&1 1>&2 2>&3)
      
     exitstatus=$?
