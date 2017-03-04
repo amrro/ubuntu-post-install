@@ -18,6 +18,7 @@ source $dir/functions/third-party/sublime-text
 source $dir/functions/third-party/vlc
 source $dir/functions/third-party/smplayer
 source $dir/functions/third-party/gradle
+source $dir/functions/third-party/git
 
 
 # Install Third-Party Applications
@@ -46,6 +47,7 @@ function thirdparty {
         'vlc'               'VLC Player' \
         'smplayer'          'Smplayer' \
         'gradle'          'Gradle' \
+        'git'          'Install latest git' \
         3>&1 1>&2 2>&3)
      
     exitstatus=$?
